@@ -1,0 +1,31 @@
+body {
+    background-color: #FEE2D1;
+    padding: 5%;
+}
+body h1{
+    background-color: #A15F7F;
+    color: white;
+    font-family: monospace;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5%;
+}
+body p{
+    background-color: #D4D2D2;
+    padding: 2%
+}
+svg {
+    background-color: #614342;
+    height: 2%;
+    width: 100%
+}
+a::before{
+    content: '['
+}
+a::after{
+    content: ']'
+}
+#lorem{
+    background-color: #E7E9DF
+}
