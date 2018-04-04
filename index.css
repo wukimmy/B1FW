@@ -2,8 +2,9 @@ body {
     background-color: #FEE2D1;
     padding: 5%;
 }
-body h1{
-    background-color: #A15F7F;
+header{
+    margin-bottom: 5%;
+    background-color: rgb(207, 126, 165);
     color: white;
     font-family: monospace;
     border-color: white;
@@ -11,9 +12,17 @@ body h1{
     border-width: 0.5px;
     padding: 5%;
 }
+#cssLogo{
+    height: 30%;
+}
 body p{
-    background-color: #D4D2D2;
+    background-color: rgb(204, 174, 199);
     padding: 2%
+}
+#imageParagraph{
+    background-color: #E3ADB5;
+    align-items: center;
+    border-left: 50%
 }
 svg {
     background-color: #614342;
@@ -27,5 +36,5 @@ a::after{
     content: ']'
 }
 #lorem{
-    background-color: #E7E9DF
+    background-color: rgb(155, 136, 158)
 }
