@@ -39,10 +39,10 @@ function search()
 
 /* EXECUCAO PRINCIPAL */
 
-// if(botaoEnviar.length > 0)
-// {
-// 	botaoEnviar[0].addEventListener("click", search);
-// }
+if(btnSearch.length > 0)
+{
+	btnSearch[0].addEventListener("click", search);
+}
 
 if(txtSearch != null && txtSearch != undefined)
 {
