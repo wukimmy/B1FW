@@ -1,0 +1,19 @@
+body{
+    margin: 10%;
+    background-color: rgb(246, 240, 230);
+}
+.visible{
+    margin: 2%;
+    display: initial;
+    border-color: greenyellow;
+}
+.invisible{
+    display: none;
+}
+.invisible, .visible {
+    height: 50%;
+    width: 60%;
+    border: solid;
+	font: bold 20px Arial;
+	margin-left: 30px;	
+}
