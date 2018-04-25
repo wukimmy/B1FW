@@ -3,17 +3,22 @@ body{
     background-color: rgb(246, 240, 230);
 }
 .visible{
-    margin: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
     display: initial;
-    border-color: greenyellow;
+    border: solid;
+    border-color: white;
+    border-width: 20px;
 }
+
 .invisible{
     display: none;
 }
 .invisible, .visible {
     height: 50%;
     width: 60%;
-    border: solid;
-	font: bold 20px Arial;
-	margin-left: 30px;	
+}
+.restaurant{
+    background-color: white;
 }
